@@ -61,3 +61,38 @@ form button {
 form button:hover {
   background-color: #555;
 }
+.about-container {
+  margin-top: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.about-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  margin-top: 15px;
+  color: #333;
+}
+
+.about-text ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
